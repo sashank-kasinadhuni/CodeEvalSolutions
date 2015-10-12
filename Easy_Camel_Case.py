@@ -7,5 +7,18 @@ def Camel_Case():
     with open(args.filename) as f:
         for line in f:
         	line = line.rstrip('\n')
-        	print("".join(x for x in line.title() ))
-Camel_Case()        	
+        	base_string = ""
+        	toUpper = True
+        	for i in line:
+        		if (toUpper):
+        			if (i.isalpha()):
+        				base_string += i.upper()
+        			else:
+        				base_string +=	i
+        			toUpper = False
+        		else:
+        			base_string += i
+        			if i ==" ":
+        				toUpper = True
+        	print (base_string)
+Camel_Case()        						
