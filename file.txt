@@ -1,4 +1,3 @@
-XX.YY,XXX.Y,X..YY,XX..Y
-XXX.YYYY,X...Y..Y,XX..YYYY,X.....YY,XX....YY
-XX...YY,X....YY,XX..YYY,X..YYYY
-XXYY,X..Y,XX.Y
+0 0 1 5
+12 13 12 13
+0 1 0 5
